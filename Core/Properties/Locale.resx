@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDeniedMessage" xml:space="preserve">
+    <value>Der Zugriff auf das Gerät {0} wurde verwehrt.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="AccessDeniedTitle" xml:space="preserve">
+    <value>Zugriff verwehrt</value>
+  </data>
+  <data name="AdbAuthorization" xml:space="preserve">
+    <value>Auf dem Android Gerät muss das USB-Debugging zugelassen werden, damit eine Verbindung hergestellt werden kann.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="AdbOffline" xml:space="preserve">
+    <value>Das Android Gerät wurde gefunden, reagiert aber nicht. Bitte verbinde das USB-Kabel neu.</value>
+  </data>
+  <data name="AddButtonText" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="AddDeviceDialogIntro" xml:space="preserve">
+    <value>Bitte starte {0} auch auf dem Gerät, das du koppeln möchtest und wähle es dann hier aus.</value>
+    <comment>0: AppName</comment>
+  </data>
+  <data name="AddDeviceDialogPairedMessage" xml:space="preserve">
+    <value>Die Koppelung mit dem Gerät "{0}" wurde erfolgreich hergestellt und kann nun genutzt werden.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="AddDeviceDialogRejectedMessage" xml:space="preserve">
+    <value>Die Koppelung wurde auf dem Gerät "{0}" abgelehnt.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="AddDeviceDialogTitle" xml:space="preserve">
+    <value>Neues Gerät koppeln</value>
+  </data>
+  <data name="BluetoothAdapterNotEnabled" xml:space="preserve">
+    <value>Der Bluetooth Adapter auf diesem Gerät ist nicht eingeschaltet.</value>
+  </data>
+  <data name="BluetoothRfcommServicesNotReceived" xml:space="preserve">
+    <value>Empfang von Rfcomm Diensten vom Bluetooth Gerät {0} ist fehlgeschlagen: {1}</value>
+    <comment>0: Remote Bluetooth device name, 1: Error code (text)</comment>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CloseButtonText" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="CommandSendFailure" xml:space="preserve">
+    <value>Das Gerät "{0}" ist nicht erreichtbar.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Gerät</value>
+  </data>
+  <data name="MenuDevices" xml:space="preserve">
+    <value>Geräte</value>
+  </data>
+  <data name="MenuSettings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="MenuViewText" xml:space="preserve">
+    <value>Ansicht</value>
+  </data>
+  <data name="MessageBoxTitleConfirmation" xml:space="preserve">
+    <value>Bestätigung</value>
+  </data>
+  <data name="MessageBoxTitleError" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="MessageBoxTitleInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MessageBoxTitleQuestion" xml:space="preserve">
+    <value>Frage</value>
+  </data>
+  <data name="MessageBoxTitleRemoteError" xml:space="preserve">
+    <value>Fehler auf dem Gerät "{0}"</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="NotificationChannelLocalDescription" xml:space="preserve">
+    <value>Benachrichtigungen von diesem Gerät.</value>
+  </data>
+  <data name="NotificationChannelLocalName" xml:space="preserve">
+    <value>Lokale Benachrichtigungen</value>
+  </data>
+  <data name="NotificationChannelNetworkDescription" xml:space="preserve">
+    <value>Benachrichtigungen zu Netzwerk-Problemen.</value>
+  </data>
+  <data name="NotificationChannelNetworkName" xml:space="preserve">
+    <value>Netzwerk</value>
+  </data>
+  <data name="NotificationChannelPairDescription" xml:space="preserve">
+    <value>Benachrichtigungen zur Koppelung von Geräten.</value>
+  </data>
+  <data name="NotificationChannelPairName" xml:space="preserve">
+    <value>Koppelungen</value>
+    <comment>Android: Name of the notification channel, invoked by a user</comment>
+  </data>
+  <data name="NotificationChannelRemoteControlDescription" xml:space="preserve">
+    <value>Benachrichtigung über die Fernsteuerung dieses Gerätes</value>
+  </data>
+  <data name="NotificationChannelRemoteControlName" xml:space="preserve">
+    <value>Fernsteuerung</value>
+  </data>
+  <data name="NotificationChannelRemoteDescription" xml:space="preserve">
+    <value>Benachrichtigung vom Gerät "{0}".</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="NotificationChannelRemoteName" xml:space="preserve">
+    <value>{0}</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="OkButtonText" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="PairAffectorDialogMessage" xml:space="preserve">
+    <value>Vom Gerät "{0}" wurde eine Koppelungsanfrage gestellt. Soll dieses Gerät mit ihm gekoppelt werden?</value>
+  </data>
+  <data name="PairButtonText" xml:space="preserve">
+    <value>Koppeln</value>
+  </data>
+  <data name="PairDialogTitle" xml:space="preserve">
+    <value>Gerät koppeln</value>
+  </data>
+  <data name="PairInitiatorDialogMessage" xml:space="preserve">
+    <value>Auf dem Gerät "{0}" wird jetzt eine Benachrichtigung angezeigt. Bitte bestätige in ihr die Koppelung.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="PairNotificationMessage" xml:space="preserve">
+    <value>Soll das Gerät mit diesem gekoppelt werden?</value>
+  </data>
+  <data name="PairNotificationTitle" xml:space="preserve">
+    <value>Koppelungsanfrage von "{0}"</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="RejectButtonText" xml:space="preserve">
+    <value>Ablehnen</value>
+  </data>
+  <data name="RemoteControl" xml:space="preserve">
+    <value>Fernsteuerung</value>
+  </data>
+  <data name="RemoteDeviceUnpaired" xml:space="preserve">
+    <value>Das Gerät muss erneut gekoppelt werden.</value>
+    <comment>0: Remote device name</comment>
+  </data>
+  <data name="ScreenshotServiceNotificationMessage" xml:space="preserve">
+    <value>Ein anderes Geräte hat vollen Zugriff auf dieses Gerät</value>
+  </data>
+  <data name="ScreenshotServiceNotificationTitle" xml:space="preserve">
+    <value>Dieses Geräte wird ferngesteuert</value>
+  </data>
+  <data name="StopButtonText" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="UnpairDevice" xml:space="preserve">
+    <value>Entkoppeln</value>
+  </data>
+</root>

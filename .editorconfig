@@ -1,0 +1,9 @@
+﻿[*.cs]
+
+# CA1822: Member als statisch markieren
+dotnet_diagnostic.CA1822.severity = none
+
+# CS8618: Ein Non-Nullable-Feld muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Erwägen Sie die Deklaration als Nullable.
+dotnet_diagnostic.CS8618.severity = none
+
+csharp_style_pattern_matching_over_as_with_null_check = false

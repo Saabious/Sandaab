@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+
+-- Table: Devices
+CREATE TABLE IF NOT EXISTS Devices (
+    Id   INTEGER PRIMARY KEY
+                 NOT NULL,
+    Json TEXT    NOT NULL
+);
+
+
+COMMIT TRANSACTION;
